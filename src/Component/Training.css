@@ -1,0 +1,45 @@
+.hightlight {
+    color: #002ab7;
+  }
+  .para1 {
+    text-align: left;
+  
+    letter-spacing: 2.26px;
+  }
+  .simplepage {
+    margin: 3% 5% 0% 5%;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .para1 {
+      font: normal normal normal 60px/48px Questrial;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .para1 {
+      font: normal normal normal 55px/48px Questrial;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .para1 {
+      font: normal normal normal 63px/64px Questrial;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .para1 {
+      font: normal normal normal 76px/67px Questrial;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .para1 {
+      font: normal normal normal 83px/88px Questrial;
+    }
+  }

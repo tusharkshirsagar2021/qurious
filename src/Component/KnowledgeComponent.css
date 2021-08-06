@@ -1,0 +1,89 @@
+.container1 {
+  
+    margin: 30px 20px;
+   
+}
+.container{
+    background: #ffffff !important;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    width: 1236px;
+    float: none !important;
+    top: 6px;
+}
+
+
+.box {
+  position: absolute;
+  width: 740px;
+  height: 650px;
+  background: transparent url("../img/music.jpg") 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  
+     
+    
+    border-radius: 10px;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+  z-index: 9;
+  margin: 11.5% 0% 0% 50%;
+  background: #11cea6 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  width: 420px;
+  height: 368px;
+  padding: 4%;
+}
+.overlay:hover{
+    box-shadow: 0 1px 9px 0 rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+ 
+ 
+.knowledge_button {
+  margin-bottom: 10px;
+  width: 217px;
+  height: 39px;
+  font: normal normal normal 13px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  background: #ffffff26 0% 0% no-repeat padding-box;
+}
+.knowledge_box_heading {
+  text-align: left;
+  font: normal normal normal 47px/45px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.knowledge_box_subheading {
+  font: normal normal normal 16px/29px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.knowledge_box_enrollnow {
+  width: 129px;
+  height: 49px;
+  background: #11cea6 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font: normal normal 600 15px/34px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+#call_us {
+  font: normal normal normal 21px/35px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+ 

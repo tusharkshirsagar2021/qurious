@@ -1,0 +1,129 @@
+
+.footer-heading {
+    text-align: left;
+    font: normal normal normal 45px/61px Open Sans;
+    letter-spacing: 0px;
+    color: #05021f;
+    opacity: 1;
+    margin-bottom: 20px;
+    margin-top: 100px;
+
+}
+.q{
+    font: bold normal normal 45px/61px Open Sans;
+}
+.site_description{
+    text-align: left;
+    font: normal normal normal 16px/29px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+    width: max-content;
+}
+.fixed {
+    background-color:#4F628E;
+    width: 200px;
+}
+.flex-item {
+    background-color:#7887AB;
+    flex-grow: 1;
+}
+.footer_link_div {
+  display: flex;
+  width: 100%; overflow: hidden;
+}
+.footer_link_div > div {
+  flex: 1; /*grow*/
+}
+.left_link {
+    margin-left: 20px;
+}
+
+.right_link_0 {
+    margin-top: 100px;
+    padding: 20px;
+    /* text-align: center; */
+    text-align: left;
+    font: normal normal 600 16px/29px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+}
+.right_link_1 {
+    margin-top: 100px;
+    padding: 20px;
+    /* text-align: center; */
+    text-align: left;
+    font: normal normal 600 16px/29px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+}
+.right_link_2 {
+    margin-top: 100px;
+    padding: 20px;
+    /* text-align: center; */
+    text-align: left;
+    font: normal normal 600 16px/29px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+}
+.right_link_3 {
+    margin-top: 100px;
+    padding: 20px;
+    /* text-align: center; */
+    text-align: left;
+    font: normal normal 600 16px/29px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+}
+.list_content{
+    text-align: left;
+    font: normal normal normal 14px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+}
+
+.copyright{
+    margin-top: 16px;
+    float: left;
+    margin-bottom: 16px;
+}
+.deep_footer_links{
+    
+    float: right;
+    
+    text-align: left;
+    font: normal normal normal 16px/29px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    opacity: 1;
+}
+
+.deep_footer_links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  .deep_footer_links  li {
+    float: left;
+  }
+  
+  .deep_footer_links li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+  
+  .deep_footer_links li a:hover {
+    color: #111111;
+    text-decoration: underline;
+  }

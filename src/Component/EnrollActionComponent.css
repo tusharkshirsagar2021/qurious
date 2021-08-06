@@ -1,0 +1,45 @@
+.enroll_action{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 118px;
+    height: 152px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: left;
+    padding-left: 58px;
+    padding-top: 36px;
+    height: 103px;
+    
+ 
+}
+.enroll_text{
+    font: normal normal normal 22px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: block; 
+     
+    
+}
+.action_right{
+    float: right;
+    margin: 10px 100px 0px 0px;
+}
+
+.action_box_enroll_now {
+    width: 154px;
+    height: 51px;
+     
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font: normal normal 600 15px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.seperator{
+    margin-top: 79px;
+    border: 1px solid #707070;
+    opacity: 0.3;
+}

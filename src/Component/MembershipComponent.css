@@ -1,0 +1,216 @@
+#first-step {
+    text-align: center;
+    font: normal normal normal 45px/61px Open Sans;
+    letter-spacing: 0px;
+    color: #05021f;
+  }
+  
+  #first-step-subheading {
+    text-align: center;
+    font: normal normal normal 14px/26px Open Sans;
+    letter-spacing: 0px;
+    color: #05021f;
+  }
+  
+  #enrollnow {
+    font: normal normal 600 14px/26px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: #3b3f4b 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    border: none;
+    padding: 7px 26px;
+  }
+  .first-step-img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    left: 18%;
+    position: absolute;
+  }
+  
+  #reachus-heading {
+    text-align: left;
+    font: normal normal normal 45px/61px Open Sans;
+    letter-spacing: 0px;
+    color: #05021f;
+    opacity: 1;
+    margin-bottom: 20px;
+    margin-top: 180px;
+
+  }
+  #reachus-subheading {
+    text-align: left;
+    font: normal normal normal 19px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #05021f;
+    opacity: 1;
+  }
+  #card_one {
+    background: #f2f4fb 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    max-width: 348px !important;
+     margin: 20px !important;
+  }
+  #card_two {
+    background: #efba6531 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    max-width: 348px !important;
+    margin: 20px !important;
+     
+  }
+  #card_three {
+    background: #ffe5e5 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    max-width: 348px !important;
+    margin: 20px !important;
+  }
+  #card-title-one {
+    padding: 14px;
+
+    margin-top: 20px;
+    text-align: center;
+    font: normal normal normal 31px/52px Apple Braille;
+    letter-spacing: -0.78px;
+    color: #ffffff;
+    text-transform: capitalize;
+    width: 53px;
+    height: 53px;
+    background: #4671ff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+  }
+  #card-title-two {
+    margin-top: 20px;
+    padding: 14px;
+    text-align: center;
+    font: normal normal normal 31px/52px Apple Braille;
+    letter-spacing: -0.78px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1; 
+    width: 53px;
+    height: 53px;
+    border-radius: 10px;
+    background: #efba65 0% 0% no-repeat padding-box;
+  }
+  #card-title-three {
+    margin-top: 20px;
+    padding: 14px;
+    text-align: center;
+    font: normal normal normal 31px/52px Apple Braille;
+    letter-spacing: -0.78px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1; 
+    width: 53px;
+    height: 53px;
+    border-radius: 10px;
+    background: #ff8989 0% 0% no-repeat padding-box;
+     
+  }
+  .card-subtitle{
+    margin-top: 29px;
+  }
+  .card-subtitle-text {
+    text-align: left;
+    font: normal normal normal 25px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #05021F;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .card-description {
+    text-align: left;
+    font: normal normal normal 15px/21px Open Sans;
+    letter-spacing: 0px;
+    margin-top: 16px;
+    padding: 3px;
+    color: #05021F;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  
+  #contact-number {
+    text-align: left;
+    font: normal normal normal 19px/35px Apple Braille;
+    letter-spacing: -1.1px;
+    color: #ffffff;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 112px;
+    align-items: center;
+    padding-left: 20px;
+  }
+  #enroll-now {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    padding: 2px 18px;
+    float: right;
+    margin-right: 20%;
+  }
+
+  .reach_us {
+    display: flex;
+    margin: 20px 20px 20px -20px;
+  }
+  .reach_us > div {
+    flex: 1; /*grow*/
+  }
+  
+ /*   Extra small devices (phones, 600px and down) 
+  @media only screen and (max-width: 600px) {
+    
+  }
+  
+   Small devices (portrait tablets and large phones, 600px and up) 
+  @media only screen and (min-width: 600px) {
+    #first-step{
+      font: normal normal normal 43px/43px Open Sans;
+    }
+    #reachus-heading{
+      font: normal normal normal 35px/61px Open Sans;
+    }
+    #reachus-subheading{
+      font: normal normal normal 17px/28px Open Sans;
+    }
+    #card-title-one,#card-title-two,#card-title-three{
+      font: normal normal normal 24px/49px Apple Braille;
+      width: 43px;
+      height: 43px;
+    }
+  
+  }
+  
+   Medium devices (landscape tablets, 768px and up) 
+  @media only screen and (min-width: 768px) {
+    #first-step{
+      font: normal normal normal 47px/43px Open Sans;
+    }
+    #reachus-heading{
+      font: normal normal normal 36px/61px Open Sans;
+    }
+    #reachus-subheading{
+    font: normal normal normal 16px/36px Open Sans;
+  }
+  }
+  
+   Large devices (laptops/desktops, 992px and up) 
+  @media only screen and (min-width: 992px) {
+   #first-step{
+      font: normal normal normal 41px/48px Open Sans;
+   }
+   #reachus-heading {
+    
+    font: normal normal normal 37px/44px Open Sans;
+   }
+   #reachus-subheading {
+   font: normal normal normal 17px/21px Open Sans;}
+  }
+  
+   Extra large devices (large laptops and desktops, 1200px and up) 
+  @media only screen and (min-width: 1200px) {
+   
+  } */

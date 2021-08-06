@@ -1,0 +1,110 @@
+import "./CategoriesComponent.css";
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+class CategoriesComponent extends React.Component {
+  render() {
+    return (
+      <div className="custom_back_cate">
+        <div className="container-fluid">
+          <div className="wrapper">
+            <p className="top_categories">Browse all</p>
+            <div className="top_categories">
+              Courses categorywise
+              <div>
+                {" "}
+                <button class="btn_enroll_now"> Enroll Now </button>{" "}
+              </div>
+            </div>
+            <p>&nbsp;</p>
+            <p>Education began in prehistory, as adults trained the </p>
+            <p>young in the knowledge and skills.</p>
+            <div className="cat_row">
+              <div className="category_div">
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Design</p>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Development</p>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Marketing</p>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Product</p>
+                </div>
+              </div>
+            </div>
+            <div className="cat_row">
+              <div className="category_div">
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Photograhy</p>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Personal Develop</p>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Music</p>
+                </div>
+                <div class="card-item">
+                  <div class="card-item-header">
+                    <img
+                      className="img"
+                      src={"https://via.placeholder.com/256X323"}
+                    />
+                  </div>
+                  <p class="card-item-footer">Business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default CategoriesComponent;

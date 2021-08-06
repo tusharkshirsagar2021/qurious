@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Component/Header';
+import TrainingSection from './Component/TrainingSection';
+import TrainingCards from './Component/TrainingCards';
+import TopCourses from './Component/TopCourses';
+import CategoriesComponent from './Component/CategoriesComponent';
+import EnrollComponent from './Component/EnrollComponent';
+import MembershipComponent from './Component/MembershipComponent';
+import KnowledgeComponent from './Component/KnowledgeComponent';
+import ClientComponent from './Component/ClientComponent';
+import EnrollActionComponent from './Component/EnrollActionComponent';
+import FooterLinksComponent from './Component/FooterLinksComponent';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="wrapper">
+       <Header/>
+       <TrainingSection/>
+       <TrainingCards/>
+       </div> 
+       <TopCourses />
+       <CategoriesComponent/>
+       <EnrollComponent/>
+       <MembershipComponent/>
+       <KnowledgeComponent/>
+       <ClientComponent/>
+       <EnrollActionComponent/>
+       <FooterLinksComponent/>
     </div>
   );
 }
