@@ -6,7 +6,7 @@ function Header() {
       <div className="header">
         <div className="logo">
           <a href="#">
-            <img src={logoimage} />
+            <img src={logoimage} alt=""/>
           </a>
         </div>
         <div className="menu_style">

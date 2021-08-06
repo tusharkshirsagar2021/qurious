@@ -13,7 +13,7 @@ import FooterLinksComponent from './Component/FooterLinksComponent';
 function App() {
   return (
     <div className="App">
-      <div class="wrapper">
+      <div className="wrapper">
        <Header/>
        <TrainingSection/>
        <TrainingCards/>

@@ -1,13 +1,13 @@
 import "./TopCourses.css";
 // Import Swiper React components
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-const options = {
-  items: 4,
-};
+// const options = {
+//   items: 4,
+// };
 class TopCourses extends React.Component {
   render() {
     return (
@@ -15,6 +15,7 @@ class TopCourses extends React.Component {
         <div className="container-fluid">
           <div className="container-fluid-inside">
           <div className="wrapper">
+          <div className="training_div_main">
             <div className="training_div">
               <div>
                 {" "}
@@ -32,7 +33,7 @@ class TopCourses extends React.Component {
                 <img
                   className="img"
                   src={"https://via.placeholder.com/256X185"}
-                />
+                alt=""/>
                 <div>
                   <p className="cart-subheading">
                     Tim Cramp on Acing Your Online Communication
@@ -49,11 +50,11 @@ class TopCourses extends React.Component {
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <div className="item">
                 <img
                   className="img"
                   src={"https://via.placeholder.com/256X185"}
-                />
+                  alt="" />
                 <div>
                   <p className="cart-subheading">
                     Swift programming For beginners &nbsp; &nbsp; &nbsp; &nbsp;
@@ -74,7 +75,7 @@ class TopCourses extends React.Component {
                 <img
                   className="img"
                   src={"https://via.placeholder.com/256X185"}
-                />
+                  alt=""/>
                 <div>
                   <p className="cart-subheading">
                     Agile time Management for Product managers
@@ -94,7 +95,7 @@ class TopCourses extends React.Component {
                 <img
                   className="img"
                   src={"https://via.placeholder.com/256X185"}
-                />
+                  alt=""/>
                 <div>
                   <p className="cart-subheading">
                     How to Design a Logo – a Beginners Course
@@ -114,7 +115,7 @@ class TopCourses extends React.Component {
                 <img
                   className="img"
                   src={"https://via.placeholder.com/256X185"}
-                />
+                  alt="" />
                 <div>
                   <p className="cart-subheading">
                     Tim Cramp on Acing Your Online Communication
@@ -131,6 +132,7 @@ class TopCourses extends React.Component {
                 </div>
               </div>
             </OwlCarousel>
+          </div>
           </div>
           </div>
         </div>

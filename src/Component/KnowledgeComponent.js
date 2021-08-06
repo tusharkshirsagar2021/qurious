@@ -1,6 +1,6 @@
 import "./KnowledgeComponent.css";
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 
 class KnowledgeComponent extends React.Component {
   render() {

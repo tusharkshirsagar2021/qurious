@@ -1,7 +1,7 @@
 import "./MembershipComponent.css";
 
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 
 class MembershipComponent extends React.Component {
   render() {

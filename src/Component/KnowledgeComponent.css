@@ -32,7 +32,7 @@
 
 .overlay {
   z-index: 9;
-  margin: 11.5% 0% 0% 50%;
+  margin: 7.5% 0% 0% 50%;
   background: #11cea6 0% 0% no-repeat padding-box;
   border-radius: 10px;
   width: 420px;
@@ -47,7 +47,7 @@
  
  
 .knowledge_button {
-  margin-bottom: 10px;
+  margin-bottom: 8%;  
   width: 217px;
   height: 39px;
   font: normal normal normal 13px/18px Open Sans;
@@ -69,6 +69,7 @@
   font: normal normal normal 16px/29px Open Sans;
   letter-spacing: 0px;
   color: #ffffff;
+  margin: 6% 0 9% 0;
 }
 .knowledge_box_enrollnow {
   width: 129px;

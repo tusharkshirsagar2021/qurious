@@ -159,6 +159,9 @@
   .reach_us > div {
     flex: 1; /*grow*/
   }
+  .how-to-reachus{
+    margin-left: 5%;
+  }
   
  /*   Extra small devices (phones, 600px and down) 
   @media only screen and (max-width: 600px) {
